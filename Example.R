@@ -1,9 +1,11 @@
 
 ##miBMA package example
 
-rm(list = ls())
-
+install.packages("devtools")
+library("devtools")
+devtools::install_github("Sinan-Yavuz/miBMA")
 library(miBMA)
+
 library(mice)
 library(BMA)
 
