@@ -1,0 +1,21 @@
+Package: miBMA
+Title: Multiple imputation under Bayesian Model Averaging
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Sinan",
+           family = "Yavuz",
+           role = c("aut", "cre"),
+           email = "syavuz@wisc.edu",
+           comment = c(ORCID = "0000-0003-3131-7820")),
+    person(given = "David",
+           family = "Kaplan",
+           role = "aut",
+           email = "david.kaplan@wisc.edu"))
+Description: This package runs multiple imputation under Bayesian Model Averaging by focusing on the problem of imputation model uncertainty in the context of missing data problems. We argue that so called Bayesianly proper approaches to multiple imputation, although correctly accounting for uncertainty in imputation model parameters, ignore the uncertainty in the imputation model itself. We address imputation model uncertainty by implementing Bayesian model averaging as part of the imputation process. Bayesian model averaging accounts for both model and parameter uncertainty. We apply Bayesian model averaging to multiple imputation under the fully conditional specification approach.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    mice,
+    BMA
+RoxygenNote: 6.1.1
