@@ -3,7 +3,7 @@
 
 install.packages("devtools")
 library("devtools")
-devtools::install_github("Sinan-Yavuz/miBMA")
+devtools::install_github("Sinan-Yavuz/miBMA",force=TRUE)
 library(miBMA)
 
 library(mice)
